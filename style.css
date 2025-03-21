@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f4f4f9;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
+.container,.login-container,.register-container{
+    width:80%;
+    max-width: 600px;
+    margin:20px auto;
+    padding:20px;
+    background-color: #fff;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+h1,h2,h3{
+    text-align: center;
+}
+label{
+
+    margin:5px 0;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+input,select{
+    padding:8px;
+    margin:10px 0;
+    border:1px solid #ddd;
+    border-radius: 4px;
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+    padding:10px;
+    cursor:pointer;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    background-color: #ff0656;
+}
+form button{
+    width:100%;
+    padding:10px;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+    background-color: #ff0656;
+}
+form button-hover{
+    background-color: #ff0665;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+}
+ul li{
+    padding:8px;
+    border-bottom: 1px solid #ddd;
+}
+.delete-button{
+    background-color: #ff0656;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    margin-left:10px;
+    cursor:pointer;
+    border-radius:5px;
+}
+.delete-button:hover{
+    background-color: #ff0665;
+}
